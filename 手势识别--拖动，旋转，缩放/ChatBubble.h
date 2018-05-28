@@ -10,7 +10,6 @@
 
 @interface ChatBubble : UIImageView
 @property (nonatomic, copy) NSString * text;
-@property (nonatomic, strong) UITextView * textLabel;
 
 
 

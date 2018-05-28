@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ChatBubbleView : UIView
+@property (nonatomic, copy) NSString * text;
+
 
 @end

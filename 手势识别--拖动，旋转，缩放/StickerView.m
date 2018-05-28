@@ -7,6 +7,11 @@
 
 #import "StickerView.h"
 
+static const CGFloat kLeftMargin = 20;
+static const CGFloat kOtherMargin = 10;
+
+
+
 @implementation StickerView
 {
     UIImageView *_imageView;
@@ -40,6 +45,10 @@
 
 - (id)initWithImage:(UIImage *)image
 {
+   
+
+    
+    
     int gap = 32;
     self = [super initWithFrame:CGRectMake(0, 0, image.size.width+gap, image.size.height+gap)];
     
@@ -172,6 +181,7 @@
 
 - (void)viewDidTap:(UITapGestureRecognizer*)sender
 {
+    NSLog(@"点击小图片");
     [[self class] setActiveStickerView:self];
 }
 
@@ -212,5 +222,8 @@
     _arg   = _initialArg + arg - tmpA;
     [self setScale:MAX(_initialScale * R / tmpR, 0.2)];
 }
+
+
+
 
 @end

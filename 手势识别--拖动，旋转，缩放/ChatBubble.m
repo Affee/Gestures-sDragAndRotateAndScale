@@ -12,26 +12,47 @@ static const CGFloat kLeftMargin = 20;
 static const CGFloat kOtherMargin = 10;
 
 @interface ChatBubble ()
-
+@property (nonatomic, strong) UILabel * textLabel;
 
 @end
 
 @implementation ChatBubble
 
-
+-(UILabel *)textLabel
+{
+    if (!_textLabel) {
+        _textLabel = [[UILabel alloc]init];
+//        _textLabel.font = [UIFont systemFontOfSize:20];
+        _textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold"size:15.f];
+        _textLabel.textColor = [UIColor redColor];
+        _textLabel.textAlignment = NSTextAlignmentCenter;
+//        _textLabel.text = @"hahahaha";
+        _textLabel.numberOfLines = 0;
+        _textLabel.preferredMaxLayoutWidth = 100;
+    }
+    return _textLabel;
+}
+-(instancetype)init
+{
+    if (!self) {
+        //        拉伸图片
+        self.image = [UIImage imageNamed:@"资源 10.png"];
+        self.image = [self.image resizableImageWithCapInsets:UIEdgeInsetsMake(20, 20, 20, 20) resizingMode:UIImageResizingModeStretch];
+        self.contentMode = UIViewContentModeScaleAspectFit;
+        [self addSubview:self.textLabel];
+    }
+    return self;
+}
 
 -(instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame: frame]) {
-        _textLabel = [[UITextView alloc]init];
-        _textLabel.font = [UIFont systemFontOfSize:17];
-        _textLabel.textColor = [UIColor redColor];
-        _textLabel.text = @"hahahaha";
+        
 
 //        拉伸图片
-        self.image = [UIImage imageNamed:@"ssss.jpg"];
+        self.image = [UIImage imageNamed:@"资源 10.png"];
         self.image = [self.image resizableImageWithCapInsets:UIEdgeInsetsMake(20, 20, 20, 20) resizingMode:UIImageResizingModeStretch];
-        
+        self.contentMode = UIViewContentModeScaleAspectFit;
         [self addSubview:self.textLabel];
     }
     return self;
@@ -47,8 +68,8 @@ static const CGFloat kOtherMargin = 10;
 {
     CGFloat width = size.width - kLeftMargin-kOtherMargin;
     CGSize sizeLable = [_textLabel sizeThatFits:CGSizeMake(width, MAXFLOAT)];
-    _textLabel.frame = CGRectMake(kLeftMargin, kOtherMargin, sizeLable.width, sizeLable.height);
-    
+    _textLabel.frame = CGRectMake(60, 60, 80, 60);
+    _textLabel.backgroundColor = [UIColor grayColor];
     CGFloat imageWidth = size.width;
     
    CGFloat imageHeight = kOtherMargin * 2 + _textLabel.frame.size.height;

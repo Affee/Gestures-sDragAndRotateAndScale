@@ -12,11 +12,18 @@
 
 @interface StickerView : UIView
 
+@property(nonatomic,copy)NSString *text;
+@property(nonatomic,strong)UILabel *textLabel;
+
+
 + (void)setActiveStickerView:(StickerView*)view;
 
 - (UIImageView*)imageView;
 - (id)initWithImage:(UIImage *)image;
 - (void)setScale:(CGFloat)scale;
 - (void)setScale:(CGFloat)scaleX andScaleY:(CGFloat)scaleY;
+
+
+
 
 @end

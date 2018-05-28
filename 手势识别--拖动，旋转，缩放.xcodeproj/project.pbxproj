@@ -7,15 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60C5B962015F83D00CE47D2 /* ChatBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = F60C5B942015F83C00CE47D2 /* ChatBubble.m */; };
+		F60C5B9820160F1800CE47D2 /* 资源 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C5B9720160F1800CE47D2 /* 资源 3.png */; };
+		F60C5B9A20160FFE00CE47D2 /* 资源 10.png in Resources */ = {isa = PBXBuildFile; fileRef = F60C5B9920160FFE00CE47D2 /* 资源 10.png */; };
+		F6123D7F201716BB00CB5B67 /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D7E201716BB00CB5B67 /* StickerView.m */; };
+		F6123D97201717B400CB5B67 /* CLClassList.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D83201717B400CB5B67 /* CLClassList.m */; };
+		F6123D98201717B400CB5B67 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D84201717B400CB5B67 /* UIImage+Utility.m */; };
+		F6123D99201717B400CB5B67 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D85201717B400CB5B67 /* UIView+Frame.m */; };
+		F6123D9A201717B400CB5B67 /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D86201717B400CB5B67 /* UIDevice+SystemVersion.m */; };
+		F6123D9B201717B400CB5B67 /* NSString+Brainfuck.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D88201717B400CB5B67 /* NSString+Brainfuck.m */; };
+		F6123D9E201717B400CB5B67 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D91201717B400CB5B67 /* UIImage+ImageEffects.m */; };
+		F6123D9F201717B400CB5B67 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123D94201717B400CB5B67 /* UIImage+Alpha.m */; };
+		F6123DA4201717D100CB5B67 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123DA3201717D100CB5B67 /* CircleView.m */; };
+		F6123DAC201717F700CB5B67 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123DA6201717F600CB5B67 /* UIColor+Help.m */; };
+		F6123DAD201717F700CB5B67 /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123DA7201717F600CB5B67 /* UIImage+Help.m */; };
+		F6123DAE201717F700CB5B67 /* UIButton+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123DA8201717F600CB5B67 /* UIButton+Help.m */; };
+		F6123DB120171F0D00CB5B67 /* ChatBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6123DB020171F0D00CB5B67 /* ChatBubbleView.m */; };
+		F6F0D3471FB96B3200CE9992 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6F0D3491FB96B3200CE9992 /* File.strings */; };
 		F6F3D8111FB191D2001FA0C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3D8101FB191D2001FA0C3 /* AppDelegate.m */; };
 		F6F3D8141FB191D2001FA0C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3D8131FB191D2001FA0C3 /* ViewController.m */; };
 		F6F3D8171FB191D2001FA0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D8151FB191D2001FA0C3 /* Main.storyboard */; };
 		F6F3D8191FB191D2001FA0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D8181FB191D2001FA0C3 /* Assets.xcassets */; };
 		F6F3D81C1FB191D2001FA0C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D81A1FB191D2001FA0C3 /* LaunchScreen.storyboard */; };
 		F6F3D81F1FB191D2001FA0C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3D81E1FB191D2001FA0C3 /* main.m */; };
+		F6F3D8261FB191FB001FA0C3 /* ssss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6F3D8251FB191FB001FA0C3 /* ssss.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60C5B942015F83C00CE47D2 /* ChatBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBubble.m; sourceTree = "<group>"; };
+		F60C5B952015F83C00CE47D2 /* ChatBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBubble.h; sourceTree = "<group>"; };
+		F60C5B9720160F1800CE47D2 /* 资源 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资源 3.png"; sourceTree = "<group>"; };
+		F60C5B9920160FFE00CE47D2 /* 资源 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资源 10.png"; sourceTree = "<group>"; };
+		F6123D7D201716BB00CB5B67 /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		F6123D7E201716BB00CB5B67 /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		F6123D83201717B400CB5B67 /* CLClassList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClassList.m; sourceTree = "<group>"; };
+		F6123D84201717B400CB5B67 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		F6123D85201717B400CB5B67 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F6123D86201717B400CB5B67 /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
+		F6123D87201717B400CB5B67 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F6123D88201717B400CB5B67 /* NSString+Brainfuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Brainfuck.m"; sourceTree = "<group>"; };
+		F6123D8B201717B400CB5B67 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		F6123D8E201717B400CB5B67 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		F6123D8F201717B400CB5B67 /* CLClassList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClassList.h; sourceTree = "<group>"; };
+		F6123D90201717B400CB5B67 /* NSString+Brainfuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Brainfuck.h"; sourceTree = "<group>"; };
+		F6123D91201717B400CB5B67 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		F6123D92201717B400CB5B67 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F6123D93201717B400CB5B67 /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
+		F6123D94201717B400CB5B67 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		F6123DA2201717D100CB5B67 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		F6123DA3201717D100CB5B67 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		F6123DA6201717F600CB5B67 /* UIColor+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
+		F6123DA7201717F600CB5B67 /* UIImage+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
+		F6123DA8201717F600CB5B67 /* UIButton+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Help.m"; sourceTree = "<group>"; };
+		F6123DA9201717F600CB5B67 /* UIImage+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
+		F6123DAA201717F600CB5B67 /* UIColor+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
+		F6123DAB201717F600CB5B67 /* UIButton+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Help.h"; sourceTree = "<group>"; };
+		F6123DAF20171F0D00CB5B67 /* ChatBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBubbleView.h; sourceTree = "<group>"; };
+		F6123DB020171F0D00CB5B67 /* ChatBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBubbleView.m; sourceTree = "<group>"; };
+		F6F0D3481FB96B3200CE9992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		F6F0D34A1FB96D5F00CE9992 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F6F0D34B1FB96D6000CE9992 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F6F0D34C1FB96D6000CE9992 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
 		F6F3D80C1FB191D2001FA0C3 /* 手势识别--拖动，旋转，缩放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势识别--拖动，旋转，缩放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F3D80F1FB191D2001FA0C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6F3D8101FB191D2001FA0C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +78,7 @@
 		F6F3D81B1FB191D2001FA0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F3D81D1FB191D2001FA0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6F3D81E1FB191D2001FA0C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F3D8251FB191FB001FA0C3 /* ssss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ssss.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +92,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6123D80201717B400CB5B67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6123D83201717B400CB5B67 /* CLClassList.m */,
+				F6123D84201717B400CB5B67 /* UIImage+Utility.m */,
+				F6123D85201717B400CB5B67 /* UIView+Frame.m */,
+				F6123D86201717B400CB5B67 /* UIDevice+SystemVersion.m */,
+				F6123D87201717B400CB5B67 /* UIImage+ImageEffects.h */,
+				F6123D88201717B400CB5B67 /* NSString+Brainfuck.m */,
+				F6123D8B201717B400CB5B67 /* UIImage+Alpha.h */,
+				F6123D8E201717B400CB5B67 /* UIImage+Utility.h */,
+				F6123D8F201717B400CB5B67 /* CLClassList.h */,
+				F6123D90201717B400CB5B67 /* NSString+Brainfuck.h */,
+				F6123D91201717B400CB5B67 /* UIImage+ImageEffects.m */,
+				F6123D92201717B400CB5B67 /* UIView+Frame.h */,
+				F6123D93201717B400CB5B67 /* UIDevice+SystemVersion.h */,
+				F6123D94201717B400CB5B67 /* UIImage+Alpha.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F6123DA5201717F600CB5B67 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F6123DA6201717F600CB5B67 /* UIColor+Help.m */,
+				F6123DA7201717F600CB5B67 /* UIImage+Help.m */,
+				F6123DA8201717F600CB5B67 /* UIButton+Help.m */,
+				F6123DA9201717F600CB5B67 /* UIImage+Help.h */,
+				F6123DAA201717F600CB5B67 /* UIColor+Help.h */,
+				F6123DAB201717F600CB5B67 /* UIButton+Help.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		F6F3D8031FB191D2001FA0C3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +145,24 @@
 		F6F3D80E1FB191D2001FA0C3 /* 手势识别--拖动，旋转，缩放 */ = {
 			isa = PBXGroup;
 			children = (
+				F6123DA5201717F600CB5B67 /* Tool */,
+				F6123D80201717B400CB5B67 /* Utils */,
+				F6F3D8251FB191FB001FA0C3 /* ssss.jpg */,
+				F60C5B9720160F1800CE47D2 /* 资源 3.png */,
+				F60C5B9920160FFE00CE47D2 /* 资源 10.png */,
 				F6F3D80F1FB191D2001FA0C3 /* AppDelegate.h */,
 				F6F3D8101FB191D2001FA0C3 /* AppDelegate.m */,
 				F6F3D8121FB191D2001FA0C3 /* ViewController.h */,
 				F6F3D8131FB191D2001FA0C3 /* ViewController.m */,
+				F60C5B952015F83C00CE47D2 /* ChatBubble.h */,
+				F60C5B942015F83C00CE47D2 /* ChatBubble.m */,
+				F6123DAF20171F0D00CB5B67 /* ChatBubbleView.h */,
+				F6123DB020171F0D00CB5B67 /* ChatBubbleView.m */,
+				F6123D7D201716BB00CB5B67 /* StickerView.h */,
+				F6123D7E201716BB00CB5B67 /* StickerView.m */,
+				F6123DA2201717D100CB5B67 /* CircleView.h */,
+				F6123DA3201717D100CB5B67 /* CircleView.m */,
+				F6F0D3491FB96B3200CE9992 /* File.strings */,
 				F6F3D8151FB191D2001FA0C3 /* Main.storyboard */,
 				F6F3D8181FB191D2001FA0C3 /* Assets.xcassets */,
 				F6F3D81A1FB191D2001FA0C3 /* LaunchScreen.storyboard */,
@@ -113,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = F6F3D8031FB191D2001FA0C3;
 			productRefGroup = F6F3D80D1FB191D2001FA0C3 /* Products */;
@@ -132,6 +234,10 @@
 				F6F3D81C1FB191D2001FA0C3 /* LaunchScreen.storyboard in Resources */,
 				F6F3D8191FB191D2001FA0C3 /* Assets.xcassets in Resources */,
 				F6F3D8171FB191D2001FA0C3 /* Main.storyboard in Resources */,
+				F6F3D8261FB191FB001FA0C3 /* ssss.jpg in Resources */,
+				F60C5B9820160F1800CE47D2 /* 资源 3.png in Resources */,
+				F6F0D3471FB96B3200CE9992 /* File.strings in Resources */,
+				F60C5B9A20160FFE00CE47D2 /* 资源 10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,19 +248,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6123DAE201717F700CB5B67 /* UIButton+Help.m in Sources */,
+				F6123DA4201717D100CB5B67 /* CircleView.m in Sources */,
+				F6123D99201717B400CB5B67 /* UIView+Frame.m in Sources */,
+				F6123DAD201717F700CB5B67 /* UIImage+Help.m in Sources */,
+				F6123D9E201717B400CB5B67 /* UIImage+ImageEffects.m in Sources */,
+				F6123DB120171F0D00CB5B67 /* ChatBubbleView.m in Sources */,
+				F6123D9B201717B400CB5B67 /* NSString+Brainfuck.m in Sources */,
+				F6123D9F201717B400CB5B67 /* UIImage+Alpha.m in Sources */,
 				F6F3D8141FB191D2001FA0C3 /* ViewController.m in Sources */,
+				F6123D98201717B400CB5B67 /* UIImage+Utility.m in Sources */,
 				F6F3D81F1FB191D2001FA0C3 /* main.m in Sources */,
 				F6F3D8111FB191D2001FA0C3 /* AppDelegate.m in Sources */,
+				F6123D97201717B400CB5B67 /* CLClassList.m in Sources */,
+				F6123DAC201717F700CB5B67 /* UIColor+Help.m in Sources */,
+				F6123D7F201716BB00CB5B67 /* StickerView.m in Sources */,
+				F6123D9A201717B400CB5B67 /* UIDevice+SystemVersion.m in Sources */,
+				F60C5B962015F83D00CE47D2 /* ChatBubble.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F6F0D3491FB96B3200CE9992 /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F0D3481FB96B3200CE9992 /* en */,
+				F6F0D34C1FB96D6000CE9992 /* zh-Hans */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
 		F6F3D8151FB191D2001FA0C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F6F3D8161FB191D2001FA0C3 /* Base */,
+				F6F0D34A1FB96D5F00CE9992 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +293,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F6F3D81B1FB191D2001FA0C3 /* Base */,
+				F6F0D34B1FB96D6000CE9992 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -229,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -279,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NK8YAKFDQQ;
 				INFOPLIST_FILE = "手势识别--拖动，旋转，缩放/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sssss.--------------";
@@ -292,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NK8YAKFDQQ;
 				INFOPLIST_FILE = "手势识别--拖动，旋转，缩放/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sssss.--------------";
